@@ -1,0 +1,18 @@
+{
+  "name": "Ajanta School of Drama and Film Trust",
+  "short_name": "Ajanta Drama & Film",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#7A0C2E",
+  "description": "Empowering society through drama, film, culture, and social awareness campaigns.",
+  "icons": [
+    {
+      "src": "assets images/theater_stage_banner.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

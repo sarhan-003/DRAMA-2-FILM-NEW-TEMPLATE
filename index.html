@@ -1,622 +1,982 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ajanta School of Drama and Film Trust, Chhatrapati Sambhajinagar - Empowering society through theatre, cinema, culture, and social awareness campaigns.">
-  <title>Ajanta School of Drama and Film Trust</title>
-  
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- FontAwesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ajanta School of Drama and Film Trust, Chhatrapati Sambhajinagar - Empowering society through theatre, cinema, culture, and social awareness campaigns."
+    />
+    <title>Ajanta School of Drama and Film Trust</title>
 
-  <!-- ==========================================================================
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#7A0C2E" />
+  </head>
+  <body>
+    <!-- ==========================================================================
        HEADER & NAVIGATION BAR
        ========================================================================== -->
-  <header class="header-nav" id="mainHeader">
-    <div class="container nav-container">
-      <!-- NGO Logo Brand -->
-      <a href="#" class="logo">
-        <i class="fa-solid fa-masks-theater logo-icon"></i>
-        <div class="logo-text">
-          <h1 data-i18n="hero_sub">Ajanta School of Drama & Film Trust</h1>
-          <span data-i18n="contact_addr_title">Chhatrapati Sambhajinagar</span>
-        </div>
-      </a>
+    <header class="header-nav" id="mainHeader">
+      <div class="container nav-container">
+        <!-- NGO Logo Brand -->
+        <a href="#" class="logo">
+          <i class="fa-solid fa-masks-theater logo-icon"></i>
+          <div class="logo-text">
+            <h1 data-i18n="hero_sub">Ajanta School of Drama & Film Trust</h1>
+            <span data-i18n="contact_addr_title"
+              >Chhatrapati Sambhajinagar</span
+            >
+          </div>
+        </a>
 
-      <!-- Navigation Links -->
-      <nav class="nav-menu" id="navMenu">
-        <li class="nav-item active"><a href="#" data-i18n="nav_home">Home</a></li>
-        <li class="nav-item"><a href="#about" data-i18n="nav_about">About Us</a></li>
-        <li class="nav-item"><a href="#programs" data-i18n="nav_programs">Our Programs</a></li>
-        <li class="nav-item"><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
-        <li class="nav-item"><a href="#videos" data-i18n="nav_videos">Videos</a></li>
-        <li class="nav-item"><a href="#donate" data-i18n="nav_donate">Donate</a></li>
-        <li class="nav-item"><a href="#contact" data-i18n="nav_contact">Contact Us</a></li>
-        
-        <!-- Language Switcher Inside Navigation -->
-        <div class="lang-switcher">
-          <button class="lang-btn active" data-lang="en">EN</button>
-          <button class="lang-btn" data-lang="hi">हिं</button>
-          <button class="lang-btn" data-lang="mr">मरा</button>
-        </div>
-      </nav>
+        <!-- Navigation Links -->
+        <nav class="nav-menu" id="navMenu">
+          <li class="nav-item active">
+            <a href="#" data-i18n="nav_home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" data-i18n="nav_about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#programs" data-i18n="nav_programs">Our Programs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="#videos" data-i18n="nav_videos">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#donate" data-i18n="nav_donate">Donate</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" data-i18n="nav_contact">Contact Us</a>
+          </li>
 
-      <!-- Mobile Menu Hamburger Toggler -->
-      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-    </div>
-  </header>
+          <!-- Language Switcher Inside Navigation -->
+          <div class="lang-switcher">
+            <button class="lang-btn active" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="hi">हिं</button>
+            <button class="lang-btn" data-lang="mr">मरा</button>
+          </div>
+        </nav>
 
-  <!-- ==========================================================================
+        <!-- Mobile Menu Hamburger Toggler -->
+        <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ==========================================================================
        HERO SECTION
        ========================================================================== -->
-  <header class="hero" id="home">
-    <div class="hero-bg">
-      <img src="assets images/theater_stage_banner.png" alt="Theatre Stage Spotlight" class="hero-bg-img">
-    </div>
-    <div class="container">
-      <div class="hero-content reveal">
-        <span class="hero-subtitle" data-i18n="hero_sub">Ajanta School of Drama and Film Trust</span>
-        <h1 class="hero-title" data-i18n="hero_title">Artistic Expression. Social Transformation.</h1>
-        <p class="hero-tagline" data-i18n="hero_tagline">Empowering society through drama, film, culture, and social awareness campaigns. Nurturing creative minds and making a difference.</p>
-        <div class="hero-actions">
-          <a href="#donate" class="btn btn-accent" data-i18n="btn_donate"><i class="fa-solid fa-heart"></i> Donate Now</a>
-          <a href="#contact" class="btn btn-secondary" data-i18n="btn_volunteer"><i class="fa-solid fa-users"></i> Join Volunteer</a>
+    <header class="hero" id="home">
+      <div class="hero-bg">
+        <img
+          src="assets images/theater_stage_banner.png"
+          alt="Theatre Stage Spotlight"
+          class="hero-bg-img"
+        />
+      </div>
+      <div class="container">
+        <div class="hero-content reveal">
+          <span class="hero-subtitle" data-i18n="hero_sub"
+            >Ajanta School of Drama and Film Trust</span
+          >
+          <h1 class="hero-title" data-i18n="hero_title">
+            Artistic Expression. Social Transformation.
+          </h1>
+          <p class="hero-tagline" data-i18n="hero_tagline">
+            Empowering society through drama, film, culture, and social
+            awareness campaigns. Nurturing creative minds and making a
+            difference.
+          </p>
+          <div class="hero-actions">
+            <a href="#donate" class="btn btn-accent" data-i18n="btn_donate"
+              ><i class="fa-solid fa-heart"></i> Donate Now</a
+            >
+            <a
+              href="#contact"
+              class="btn btn-secondary"
+              data-i18n="btn_volunteer"
+              ><i class="fa-solid fa-users"></i> Join Volunteer</a
+            >
+          </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <!-- ==========================================================================
+    <main>
+      <!-- ==========================================================================
          ABOUT US & STATS SECTION
          ========================================================================== -->
-    <section class="section" id="about">
-      <div class="container">
-        <div class="about-grid">
-          <!-- Text Content -->
-          <div class="about-text-content reveal">
-            <h3 data-i18n="about_title"><i class="fa-solid fa-circle-info"></i> Who We Are</h3>
-            <h2 class="section-title" data-i18n="about_subtitle">About Ajanta School of Drama & Film</h2>
-            <p class="about-intro" data-i18n="about_intro">Ajanta School of Drama and Film Trust (Chhatrapati Sambhajinagar) is a dedicated non-profit organization registered with the goal of using performance arts as a tool for community development.</p>
-            <p class="about-description" data-i18n="about_desc">We believe that theatre, street plays, and cinematic storytelling have unparalleled power to inspire human empathy, educate the underprivileged, and voice critical social concerns. Through our free workshops, training programs, and awareness drives, we provide a creative platform to local youth and address vital social causes in the community.</p>
-            
-            <!-- Mission & Vision Cards -->
-            <div class="about-mv">
-              <div class="mv-card reveal reveal-delay-1">
-                <i class="fa-solid fa-bullseye mv-card-icon"></i>
-                <h4 data-i18n="about_mission_title">Our Mission</h4>
-                <p data-i18n="about_mission_desc">To foster social change, empower local talent, and uplift marginalized youth by training them in performing arts and media literacy.</p>
+      <section class="section" id="about">
+        <div class="container">
+          <div class="about-grid">
+            <!-- Text Content -->
+            <div class="about-text-content reveal">
+              <h3 data-i18n="about_title">
+                <i class="fa-solid fa-circle-info"></i> Who We Are
+              </h3>
+              <h2 class="section-title" data-i18n="about_subtitle">
+                About Ajanta School of Drama & Film
+              </h2>
+              <p class="about-intro" data-i18n="about_intro">
+                Ajanta School of Drama and Film Trust (Chhatrapati
+                Sambhajinagar) is a dedicated non-profit organization registered
+                with the goal of using performance arts as a tool for community
+                development.
+              </p>
+              <p class="about-description" data-i18n="about_desc">
+                We believe that theatre, street plays, and cinematic
+                storytelling have unparalleled power to inspire human empathy,
+                educate the underprivileged, and voice critical social concerns.
+                Through our free workshops, training programs, and awareness
+                drives, we provide a creative platform to local youth and
+                address vital social causes in the community.
+              </p>
+
+              <!-- Mission & Vision Cards -->
+              <div class="about-mv">
+                <div class="mv-card reveal reveal-delay-1">
+                  <i class="fa-solid fa-bullseye mv-card-icon"></i>
+                  <h4 data-i18n="about_mission_title">Our Mission</h4>
+                  <p data-i18n="about_mission_desc">
+                    To foster social change, empower local talent, and uplift
+                    marginalized youth by training them in performing arts and
+                    media literacy.
+                  </p>
+                </div>
+                <div class="mv-card reveal reveal-delay-2">
+                  <i class="fa-solid fa-eye mv-card-icon"></i>
+                  <h4 data-i18n="about_vision_title">Our Vision</h4>
+                  <p data-i18n="about_vision_desc">
+                    A culturally vibrant society where every individual has a
+                    voice, and art serves as a catalyst for awareness, equality,
+                    and development.
+                  </p>
+                </div>
               </div>
-              <div class="mv-card reveal reveal-delay-2">
-                <i class="fa-solid fa-eye mv-card-icon"></i>
-                <h4 data-i18n="about_vision_title">Our Vision</h4>
-                <p data-i18n="about_vision_desc">A culturally vibrant society where every individual has a voice, and art serves as a catalyst for awareness, equality, and development.</p>
+            </div>
+
+            <!-- Visual Showcase & Badge -->
+            <div class="about-visual reveal reveal-delay-2">
+              <div class="about-img-wrapper">
+                <!-- Using classroom student image -->
+                <img
+                  src="assets images/happy-girl-with-glasses-smiling-surrounded-by-students-in-classroom-free-photo.jpg"
+                  alt="Students Training Session"
+                />
+              </div>
+              <div class="about-badge">
+                <span class="badge-num">10+</span>
+                <span class="badge-text" data-i18n="about_years_exp"
+                  >Years of Art & Activism</span
+                >
               </div>
             </div>
           </div>
 
-          <!-- Visual Showcase & Badge -->
-          <div class="about-visual reveal reveal-delay-2">
-            <div class="about-img-wrapper">
-              <!-- Using classroom student image -->
-              <img src="assets images/happy-girl-with-glasses-smiling-surrounded-by-students-in-classroom-free-photo.jpg" alt="Students Training Session">
+          <!-- Animated Counter Row -->
+          <div class="about-counters reveal">
+            <div class="counter-item">
+              <i class="fa-solid fa-hands-helping counter-icon"></i>
+              <div class="counter-number" data-target="150" data-suffix="+">
+                0
+              </div>
+              <div class="counter-label" data-i18n="counter_volunteers">
+                Volunteers
+              </div>
             </div>
-            <div class="about-badge">
-              <span class="badge-num">10+</span>
-              <span class="badge-text" data-i18n="about_years_exp">Years of Art & Activism</span>
+            <div class="counter-item">
+              <i class="fa-solid fa-calendar-check counter-icon"></i>
+              <div class="counter-number" data-target="50" data-suffix="+">
+                0
+              </div>
+              <div class="counter-label" data-i18n="counter_events">
+                Events Organized
+              </div>
+            </div>
+            <div class="counter-item">
+              <i class="fa-solid fa-graduation-cap counter-icon"></i>
+              <div class="counter-number" data-target="2000" data-suffix="+">
+                0
+              </div>
+              <div class="counter-label" data-i18n="counter_students">
+                Students Trained
+              </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <!-- Animated Counter Row -->
-        <div class="about-counters reveal">
-          <div class="counter-item">
-            <i class="fa-solid fa-hands-helping counter-icon"></i>
-            <div class="counter-number" data-target="150" data-suffix="+">0</div>
-            <div class="counter-label" data-i18n="counter_volunteers">Volunteers</div>
-          </div>
-          <div class="counter-item">
-            <i class="fa-solid fa-calendar-check counter-icon"></i>
-            <div class="counter-number" data-target="50" data-suffix="+">0</div>
-            <div class="counter-label" data-i18n="counter_events">Events Organized</div>
-          </div>
-          <div class="counter-item">
-            <i class="fa-solid fa-graduation-cap counter-icon"></i>
-            <div class="counter-number" data-target="2000" data-suffix="+">0</div>
-            <div class="counter-label" data-i18n="counter_students">Students Trained</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
+      <!-- ==========================================================================
          OUR PROGRAMS SECTION
          ========================================================================== -->
-    <section class="section section-bg-alt" id="programs">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2 class="section-title" data-i18n="programs_title">Our Key Programs</h2>
-          <p data-i18n="programs_desc">Discover how we translate art into impact through structured workshops and social initiatives.</p>
+      <section class="section section-bg-alt" id="programs">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title" data-i18n="programs_title">
+              Our Key Programs
+            </h2>
+            <p data-i18n="programs_desc">
+              Discover how we translate art into impact through structured
+              workshops and social initiatives.
+            </p>
+          </div>
+
+          <div class="programs-grid">
+            <!-- Program Card 1: Drama Workshops -->
+            <div class="program-card reveal">
+              <div class="program-img-wrapper">
+                <img src="assets images/images (1).jfif" alt="Drama Workshop" />
+                <span class="program-tag" data-i18n="prog_tag_art"
+                  >Performance Art</span
+                >
+              </div>
+              <div class="program-info">
+                <h3 data-i18n="prog_drama_title">Drama & Theatre Workshops</h3>
+                <p data-i18n="prog_drama_desc">
+                  Comprehensive training in acting, stage design, scripting, and
+                  direction. We host regular community plays and theatre therapy
+                  sessions.
+                </p>
+                <a href="#contact" class="program-link">
+                  <span data-i18n="prog_learn_more">Learn More</span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Program Card 2: Film Training -->
+            <div class="program-card reveal reveal-delay-1">
+              <div class="program-img-wrapper">
+                <img
+                  src="assets images/std-crnr-news-1.jpg"
+                  alt="Film Training Session"
+                />
+                <span class="program-tag" data-i18n="prog_tag_media"
+                  >Media Skills</span
+                >
+              </div>
+              <div class="program-info">
+                <h3 data-i18n="prog_film_title">Film & Cinema Training</h3>
+                <p data-i18n="prog_film_desc">
+                  Empowering aspiring filmmakers from rural and semi-urban
+                  backgrounds with camera work, screenwriting, editing, and
+                  sound design skills.
+                </p>
+                <a href="#contact" class="program-link">
+                  <span data-i18n="prog_learn_more">Learn More</span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Program Card 3: Cultural Activities -->
+            <div class="program-card reveal reveal-delay-2">
+              <div class="program-img-wrapper">
+                <img
+                  src="assets images/images.jfif"
+                  alt="Cultural Activities"
+                />
+                <span class="program-tag" data-i18n="prog_tag_culture"
+                  >Heritage</span
+                >
+              </div>
+              <div class="program-info">
+                <h3 data-i18n="prog_cultural_title">Cultural Preservation</h3>
+                <p data-i18n="prog_cultural_desc">
+                  Promoting local folk music, traditional dance, and heritage
+                  arts of Maharashtra to keep our rich cultural legacy alive for
+                  future generations.
+                </p>
+                <a href="#contact" class="program-link">
+                  <span data-i18n="prog_learn_more">Learn More</span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- Program Card 4: Social Campaigns -->
+            <div class="program-card reveal reveal-delay-3">
+              <div class="program-img-wrapper">
+                <img
+                  src="assets images/volunteers-from-an-ngo-during-a-medical-distribution-camp-for-needy-and-poor-people-at-a-slum-area-in-the-outskirts-of-the-capital-of-india-2JN6EHX.jpg"
+                  alt="Social Awareness Play"
+                />
+                <span class="program-tag" data-i18n="prog_tag_social"
+                  >Advocacy</span
+                >
+              </div>
+              <div class="program-info">
+                <h3 data-i18n="prog_awareness_title">
+                  Social Awareness Campaigns
+                </h3>
+                <p data-i18n="prog_awareness_desc">
+                  Utilizing Nukkad Natak (Street Plays) to tackle critical
+                  issues like education rights, sanitation, gender equality, and
+                  health awareness.
+                </p>
+                <a href="#contact" class="program-link">
+                  <span data-i18n="prog_learn_more">Learn More</span>
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        <div class="programs-grid">
-          <!-- Program Card 1: Drama Workshops -->
-          <div class="program-card reveal">
-            <div class="program-img-wrapper">
-              <img src="assets images/images (1).jfif" alt="Drama Workshop">
-              <span class="program-tag" data-i18n="prog_tag_art">Performance Art</span>
-            </div>
-            <div class="program-info">
-              <h3 data-i18n="prog_drama_title">Drama & Theatre Workshops</h3>
-              <p data-i18n="prog_drama_desc">Comprehensive training in acting, stage design, scripting, and direction. We host regular community plays and theatre therapy sessions.</p>
-              <a href="#contact" class="program-link">
-                <span data-i18n="prog_learn_more">Learn More</span> <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-            </div>
-          </div>
+      </section>
 
-          <!-- Program Card 2: Film Training -->
-          <div class="program-card reveal reveal-delay-1">
-            <div class="program-img-wrapper">
-              <img src="assets images/std-crnr-news-1.jpg" alt="Film Training Session">
-              <span class="program-tag" data-i18n="prog_tag_media">Media Skills</span>
-            </div>
-            <div class="program-info">
-              <h3 data-i18n="prog_film_title">Film & Cinema Training</h3>
-              <p data-i18n="prog_film_desc">Empowering aspiring filmmakers from rural and semi-urban backgrounds with camera work, screenwriting, editing, and sound design skills.</p>
-              <a href="#contact" class="program-link">
-                <span data-i18n="prog_learn_more">Learn More</span> <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Program Card 3: Cultural Activities -->
-          <div class="program-card reveal reveal-delay-2">
-            <div class="program-img-wrapper">
-              <img src="assets images/images.jfif" alt="Cultural Activities">
-              <span class="program-tag" data-i18n="prog_tag_culture">Heritage</span>
-            </div>
-            <div class="program-info">
-              <h3 data-i18n="prog_cultural_title">Cultural Preservation</h3>
-              <p data-i18n="prog_cultural_desc">Promoting local folk music, traditional dance, and heritage arts of Maharashtra to keep our rich cultural legacy alive for future generations.</p>
-              <a href="#contact" class="program-link">
-                <span data-i18n="prog_learn_more">Learn More</span> <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-            </div>
-          </div>
-
-          <!-- Program Card 4: Social Campaigns -->
-          <div class="program-card reveal reveal-delay-3">
-            <div class="program-img-wrapper">
-              <img src="assets images/volunteers-from-an-ngo-during-a-medical-distribution-camp-for-needy-and-poor-people-at-a-slum-area-in-the-outskirts-of-the-capital-of-india-2JN6EHX.jpg" alt="Social Awareness Play">
-              <span class="program-tag" data-i18n="prog_tag_social">Advocacy</span>
-            </div>
-            <div class="program-info">
-              <h3 data-i18n="prog_awareness_title">Social Awareness Campaigns</h3>
-              <p data-i18n="prog_awareness_desc">Utilizing Nukkad Natak (Street Plays) to tackle critical issues like education rights, sanitation, gender equality, and health awareness.</p>
-              <a href="#contact" class="program-link">
-                <span data-i18n="prog_learn_more">Learn More</span> <i class="fa-solid fa-arrow-right-long"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
+      <!-- ==========================================================================
          GALLERY SECTION
          ========================================================================== -->
-    <section class="section" id="gallery">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2 class="section-title" data-i18n="gallery_title">Glimpses of Our Journey</h2>
-          <p data-i18n="gallery_desc">Capturing moments from our stage plays, training workshops, and community campaigns.</p>
+      <section class="section" id="gallery">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title" data-i18n="gallery_title">
+              Glimpses of Our Journey
+            </h2>
+            <p data-i18n="gallery_desc">
+              Capturing moments from our stage plays, training workshops, and
+              community campaigns.
+            </p>
+          </div>
+
+          <div class="gallery-grid">
+            <!-- Item 1 -->
+            <div class="gallery-item reveal">
+              <img
+                src="assets images/volunteers-from-an-ngo-during-a-medical-distribution-camp-for-needy-and-poor-people-at-a-slum-area-in-the-outskirts-of-the-capital-of-india-2JN6EHX.jpg"
+                alt="Street Play Camp"
+              />
+              <div class="gallery-overlay">
+                <i class="fa-solid fa-bullhorn gallery-overlay-icon"></i>
+                <h4 data-i18n="gallery_img1_title">Street Play Campaign</h4>
+                <p data-i18n="gallery_img1_desc">
+                  Spreading awareness in rural slums.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="gallery-item reveal reveal-delay-1">
+              <img
+                src="assets images/happy-girl-with-glasses-smiling-surrounded-by-students-in-classroom-free-photo.jpg"
+                alt="Drama class acting session"
+              />
+              <div class="gallery-overlay">
+                <i class="fa-solid fa-masks-theater gallery-overlay-icon"></i>
+                <h4 data-i18n="gallery_img2_title">Acting Workshop</h4>
+                <p data-i18n="gallery_img2_desc">
+                  Students practicing vocal dynamics.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="gallery-item reveal reveal-delay-2">
+              <img
+                src="assets images/std-crnr-news-1.jpg"
+                alt="Cinematography setup"
+              />
+              <div class="gallery-overlay">
+                <i class="fa-solid fa-camera-retro gallery-overlay-icon"></i>
+                <h4 data-i18n="gallery_img3_title">Film Production</h4>
+                <p data-i18n="gallery_img3_desc">
+                  A practical session on DSLR setups.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="gallery-item reveal">
+              <img
+                src="assets images/The-role-of-the-education-NGO-in-India-enthusiastic-children-beneficiaries-education-classroom-preview.jpg"
+                alt="Children learning"
+              />
+              <div class="gallery-overlay">
+                <i class="fa-solid fa-graduation-cap gallery-overlay-icon"></i>
+                <h4 data-i18n="gallery_img5_title">Community Class</h4>
+                <p data-i18n="gallery_img5_desc">
+                  Free education through visual arts.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="gallery-item reveal reveal-delay-1">
+              <img src="assets images/images (1).jfif" alt="Stage rehearsals" />
+              <div class="gallery-overlay">
+                <i class="fa-solid fa-clapperboard gallery-overlay-icon"></i>
+                <h4 data-i18n="gallery_img4_title">Annual Stage Event</h4>
+                <p data-i18n="gallery_img4_desc">
+                  Performers at the cultural trust drama.
+                </p>
+              </div>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="gallery-item reveal reveal-delay-2">
+              <img
+                src="assets images/istockphoto-870402320-612x612.jpg"
+                alt="Distribution and volunteers"
+              />
+              <div class="gallery-overlay">
+                <i
+                  class="fa-solid fa-users-viewfinder gallery-overlay-icon"
+                ></i>
+                <h4 data-i18n="gallery_img6_title">Youth Volunteers</h4>
+                <p data-i18n="gallery_img6_desc">Team distribution camp.</p>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="gallery-grid">
-          <!-- Item 1 -->
-          <div class="gallery-item reveal">
-            <img src="assets images/volunteers-from-an-ngo-during-a-medical-distribution-camp-for-needy-and-poor-people-at-a-slum-area-in-the-outskirts-of-the-capital-of-india-2JN6EHX.jpg" alt="Street Play Camp">
-            <div class="gallery-overlay">
-              <i class="fa-solid fa-bullhorn gallery-overlay-icon"></i>
-              <h4 data-i18n="gallery_img1_title">Street Play Campaign</h4>
-              <p data-i18n="gallery_img1_desc">Spreading awareness in rural slums.</p>
-            </div>
-          </div>
-
-          <!-- Item 2 -->
-          <div class="gallery-item reveal reveal-delay-1">
-            <img src="assets images/happy-girl-with-glasses-smiling-surrounded-by-students-in-classroom-free-photo.jpg" alt="Drama class acting session">
-            <div class="gallery-overlay">
-              <i class="fa-solid fa-masks-theater gallery-overlay-icon"></i>
-              <h4 data-i18n="gallery_img2_title">Acting Workshop</h4>
-              <p data-i18n="gallery_img2_desc">Students practicing vocal dynamics.</p>
-            </div>
-          </div>
-
-          <!-- Item 3 -->
-          <div class="gallery-item reveal reveal-delay-2">
-            <img src="assets images/std-crnr-news-1.jpg" alt="Cinematography setup">
-            <div class="gallery-overlay">
-              <i class="fa-solid fa-camera-retro gallery-overlay-icon"></i>
-              <h4 data-i18n="gallery_img3_title">Film Production</h4>
-              <p data-i18n="gallery_img3_desc">A practical session on DSLR setups.</p>
-            </div>
-          </div>
-
-          <!-- Item 4 -->
-          <div class="gallery-item reveal">
-            <img src="assets images/The-role-of-the-education-NGO-in-India-enthusiastic-children-beneficiaries-education-classroom-preview.jpg" alt="Children learning">
-            <div class="gallery-overlay">
-              <i class="fa-solid fa-graduation-cap gallery-overlay-icon"></i>
-              <h4 data-i18n="gallery_img5_title">Community Class</h4>
-              <p data-i18n="gallery_img5_desc">Free education through visual arts.</p>
-            </div>
-          </div>
-
-          <!-- Item 5 -->
-          <div class="gallery-item reveal reveal-delay-1">
-            <img src="assets images/images (1).jfif" alt="Stage rehearsals">
-            <div class="gallery-overlay">
-              <i class="fa-solid fa-clapperboard gallery-overlay-icon"></i>
-              <h4 data-i18n="gallery_img4_title">Annual Stage Event</h4>
-              <p data-i18n="gallery_img4_desc">Performers at the cultural trust drama.</p>
-            </div>
-          </div>
-
-          <!-- Item 6 -->
-          <div class="gallery-item reveal reveal-delay-2">
-            <img src="assets images/istockphoto-870402320-612x612.jpg" alt="Distribution and volunteers">
-            <div class="gallery-overlay">
-              <i class="fa-solid fa-users-viewfinder gallery-overlay-icon"></i>
-              <h4 data-i18n="gallery_img6_title">Youth Volunteers</h4>
-              <p data-i18n="gallery_img6_desc">Team distribution camp.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ==========================================================================
+      <!-- ==========================================================================
          VIDEOS SECTION
          ========================================================================== -->
-    <section class="section section-bg-dark" id="videos">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2 class="section-title" data-i18n="videos_title">Videos & Showcase</h2>
-          <p data-i18n="videos_desc">Watch our stage performances, student projects, and campaign documentaries.</p>
-        </div>
-
-        <div class="videos-grid">
-          <!-- Video Card 1 -->
-          <div class="video-card reveal">
-            <div class="video-wrapper">
-              <!-- Using standard drama workshop placeholder content -->
-              <div class="video-placeholder" data-video-id="coY5coVvJb0" style="background-image: url('assets images/volunteers-from-an-ngo-during-a-medical-distribution-camp-for-needy-and-poor-people-at-a-slum-area-in-the-outskirts-of-the-capital-of-india-2JN6EHX.jpg');">
-                <div class="play-btn-circle">
-                  <i class="fa-solid fa-play"></i>
-                </div>
-              </div>
-            </div>
-            <div class="video-info">
-              <h4 data-i18n="video_1_title">Nukkad Natak on Right to Education</h4>
-              <p data-i18n="video_1_desc">A powerful street play performed by our volunteers in local villages.</p>
-            </div>
+      <section class="section section-bg-dark" id="videos">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title" data-i18n="videos_title">
+              Videos & Showcase
+            </h2>
+            <p data-i18n="videos_desc">
+              Watch our stage performances, student projects, and campaign
+              documentaries.
+            </p>
           </div>
 
-          <!-- Video Card 2 -->
-          <div class="video-card reveal reveal-delay-1">
-            <div class="video-wrapper">
-              <!-- Using cinematic learning placeholder content -->
-              <div class="video-placeholder" data-video-id="ScMzIvxBSi4" style="background-image: url('assets images/std-crnr-news-1.jpg');">
-                <div class="play-btn-circle">
-                  <i class="fa-solid fa-play"></i>
+          <div class="videos-grid">
+            <!-- Video Card 1 -->
+            <div class="video-card reveal">
+              <div class="video-wrapper">
+                <!-- Using standard drama workshop placeholder content -->
+                <div
+                  class="video-placeholder"
+                  data-video-id="coY5coVvJb0"
+                  style="
+                    background-image: url(&quot;assets images/volunteers-from-an-ngo-during-a-medical-distribution-camp-for-needy-and-poor-people-at-a-slum-area-in-the-outskirts-of-the-capital-of-india-2JN6EHX.jpg&quot;);
+                  "
+                >
+                  <div class="play-btn-circle">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
                 </div>
               </div>
+              <div class="video-info">
+                <h4 data-i18n="video_1_title">
+                  Nukkad Natak on Right to Education
+                </h4>
+                <p data-i18n="video_1_desc">
+                  A powerful street play performed by our volunteers in local
+                  villages.
+                </p>
+              </div>
             </div>
-            <div class="video-info">
-              <h4 data-i18n="video_2_title">Behind The Scenes: Drama Camp</h4>
-              <p data-i18n="video_2_desc">Watch the journey of 50 students learning the art of expression.</p>
+
+            <!-- Video Card 2 -->
+            <div class="video-card reveal reveal-delay-1">
+              <div class="video-wrapper">
+                <!-- Using cinematic learning placeholder content -->
+                <div
+                  class="video-placeholder"
+                  data-video-id="ScMzIvxBSi4"
+                  style="
+                    background-image: url(&quot;assets images/std-crnr-news-1.jpg&quot;);
+                  "
+                >
+                  <div class="play-btn-circle">
+                    <i class="fa-solid fa-play"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="video-info">
+                <h4 data-i18n="video_2_title">Behind The Scenes: Drama Camp</h4>
+                <p data-i18n="video_2_desc">
+                  Watch the journey of 50 students learning the art of
+                  expression.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ==========================================================================
+      <!-- ==========================================================================
          DONATION & UPI SECTION
          ========================================================================== -->
-    <section class="section" id="donate">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2 class="section-title" data-i18n="donate_title">Support Our Mission</h2>
-          <p data-i18n="donate_desc">Every contribution helps us provide free artistic education, buy stage materials, and organize social awareness plays.</p>
-        </div>
+      <section class="section" id="donate">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title" data-i18n="donate_title">
+              Support Our Mission
+            </h2>
+            <p data-i18n="donate_desc">
+              Every contribution helps us provide free artistic education, buy
+              stage materials, and organize social awareness plays.
+            </p>
+          </div>
 
-        <div class="donate-grid">
-          <!-- Text and Mission impact checklist -->
-          <div class="donate-msg-content reveal">
-            <h3 data-i18n="donate_msg_title">Why Donate to Us?</h3>
-            <p data-i18n="donate_msg_desc">Your support enables us to provide a safe space and career path for youth while addressing social evils through artistic performance. We are completely run by volunteers and donations.</p>
-            
-            <div class="donate-impact-list">
-              <!-- Point 1 -->
-              <div class="donate-impact-item reveal reveal-delay-1">
-                <i class="fa-solid fa-circle-check donate-impact-icon"></i>
-                <div class="donate-impact-text">
-                  <h4 data-i18n="donate_impact1_title">Sponsor Art Education</h4>
-                  <p data-i18n="donate_impact1_desc">Sponsor a month's worth of free acting and film materials for a student.</p>
+          <div class="donate-grid">
+            <!-- Text and Mission impact checklist -->
+            <div class="donate-msg-content reveal">
+              <h3 data-i18n="donate_msg_title">Why Donate to Us?</h3>
+              <p data-i18n="donate_msg_desc">
+                Your support enables us to provide a safe space and career path
+                for youth while addressing social evils through artistic
+                performance. We are completely run by volunteers and donations.
+              </p>
+
+              <div class="donate-impact-list">
+                <!-- Point 1 -->
+                <div class="donate-impact-item reveal reveal-delay-1">
+                  <i class="fa-solid fa-circle-check donate-impact-icon"></i>
+                  <div class="donate-impact-text">
+                    <h4 data-i18n="donate_impact1_title">
+                      Sponsor Art Education
+                    </h4>
+                    <p data-i18n="donate_impact1_desc">
+                      Sponsor a month's worth of free acting and film materials
+                      for a student.
+                    </p>
+                  </div>
+                </div>
+                <!-- Point 2 -->
+                <div class="donate-impact-item reveal reveal-delay-2">
+                  <i class="fa-solid fa-circle-check donate-impact-icon"></i>
+                  <div class="donate-impact-text">
+                    <h4 data-i18n="donate_impact2_title">
+                      Fund a Street Play Drive
+                    </h4>
+                    <p data-i18n="donate_impact2_desc">
+                      Enable our volunteers to travel and perform social plays
+                      in remote rural areas.
+                    </p>
+                  </div>
+                </div>
+                <!-- Point 3 -->
+                <div class="donate-impact-item reveal reveal-delay-3">
+                  <i class="fa-solid fa-circle-check donate-impact-icon"></i>
+                  <div class="donate-impact-text">
+                    <h4 data-i18n="donate_impact3_title">
+                      Improve Technical Gear
+                    </h4>
+                    <p data-i18n="donate_impact3_desc">
+                      Help us purchase sound equipment, stage lighting, and
+                      camera accessories.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <!-- Point 2 -->
-              <div class="donate-impact-item reveal reveal-delay-2">
-                <i class="fa-solid fa-circle-check donate-impact-icon"></i>
-                <div class="donate-impact-text">
-                  <h4 data-i18n="donate_impact2_title">Fund a Street Play Drive</h4>
-                  <p data-i18n="donate_impact2_desc">Enable our volunteers to travel and perform social plays in remote rural areas.</p>
+            </div>
+
+            <!-- Donation Payment Card -->
+            <div class="donate-methods-card reveal reveal-delay-1">
+              <!-- QR code container with clean vector mock SVG -->
+              <div class="donate-qr-wrapper">
+                <div class="donate-qr-placeholder">
+                  <!-- Clean representation of UPI QR Code -->
+                  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <!-- QR Borders & Position blocks -->
+                    <rect x="5" y="5" width="25" height="25" fill="#121212" />
+                    <rect x="9" y="9" width="17" height="17" fill="#ffffff" />
+                    <rect x="13" y="13" width="9" height="9" fill="#7A0C2E" />
+
+                    <rect x="70" y="5" width="25" height="25" fill="#121212" />
+                    <rect x="74" y="9" width="17" height="17" fill="#ffffff" />
+                    <rect x="78" y="78" width="9" height="9" fill="#7A0C2E" />
+
+                    <rect x="5" y="70" width="25" height="25" fill="#121212" />
+                    <rect x="9" y="74" width="17" height="17" fill="#ffffff" />
+                    <rect x="13" y="78" width="9" height="9" fill="#7A0C2E" />
+
+                    <!-- Random QR Pixel Mocks -->
+                    <rect x="35" y="5" width="5" height="10" fill="#121212" />
+                    <rect x="45" y="5" width="10" height="5" fill="#7A0C2E" />
+                    <rect x="60" y="10" width="5" height="15" fill="#121212" />
+                    <rect x="35" y="20" width="15" height="5" fill="#121212" />
+                    <rect x="55" y="20" width="5" height="5" fill="#7A0C2E" />
+
+                    <rect x="35" y="35" width="10" height="10" fill="#7A0C2E" />
+                    <rect x="50" y="35" width="5" height="5" fill="#121212" />
+                    <rect x="60" y="35" width="25" height="5" fill="#121212" />
+                    <rect x="35" y="50" width="5" height="15" fill="#121212" />
+                    <rect x="45" y="50" width="20" height="5" fill="#7A0C2E" />
+                    <rect x="55" y="60" width="10" height="10" fill="#121212" />
+
+                    <rect x="70" y="50" width="5" height="15" fill="#7A0C2E" />
+                    <rect x="80" y="55" width="15" height="5" fill="#121212" />
+                    <rect x="85" y="65" width="10" height="15" fill="#121212" />
+
+                    <rect x="5" y="60" width="10" height="5" fill="#7A0C2E" />
+                    <rect x="20" y="50" width="10" height="10" fill="#121212" />
+
+                    <!-- Center logo dot -->
+                    <circle cx="50" cy="50" r="6" fill="#D4AF37" />
+                  </svg>
+                </div>
+                <div class="donate-qr-text" data-i18n="donate_scan_qr">
+                  Scan QR Code to Pay
                 </div>
               </div>
-              <!-- Point 3 -->
-              <div class="donate-impact-item reveal reveal-delay-3">
-                <i class="fa-solid fa-circle-check donate-impact-icon"></i>
-                <div class="donate-impact-text">
-                  <h4 data-i18n="donate_impact3_title">Improve Technical Gear</h4>
-                  <p data-i18n="donate_impact3_desc">Help us purchase sound equipment, stage lighting, and camera accessories.</p>
+
+              <!-- Bank account list -->
+              <div class="bank-details-wrapper">
+                <h4 class="bank-details-title" data-i18n="donate_bank_header">
+                  Direct Bank Transfer Details
+                </h4>
+                <div class="bank-info-item">
+                  <span class="bank-info-label" data-i18n="donate_bank_holder"
+                    >Account Name</span
+                  >
+                  <span class="bank-info-value"
+                    >Ajanta School of Drama & Film Trust</span
+                  >
                 </div>
+                <div class="bank-info-item">
+                  <span class="bank-info-label" data-i18n="donate_bank_name"
+                    >Bank Name</span
+                  >
+                  <span class="bank-info-value">State Bank of India</span>
+                </div>
+                <div class="bank-info-item">
+                  <span class="bank-info-label" data-i18n="donate_bank_no"
+                    >Account Number</span
+                  >
+                  <span class="bank-info-value">123456789012</span>
+                </div>
+                <div class="bank-info-item">
+                  <span class="bank-info-label" data-i18n="donate_bank_ifsc"
+                    >IFSC Code</span
+                  >
+                  <span class="bank-info-value">SBIN0001234</span>
+                </div>
+                <div class="bank-info-item">
+                  <span class="bank-info-label" data-i18n="donate_bank_branch"
+                    >Branch</span
+                  >
+                  <span class="bank-info-value"
+                    >CIDCO Chhatrapati Sambhajinagar</span
+                  >
+                </div>
+              </div>
+
+              <div class="donate-btn-wrapper">
+                <button
+                  class="btn btn-primary"
+                  id="whatsappNotifyBtn"
+                  data-i18n="donate_cta"
+                >
+                  <i class="fa-brands fa-whatsapp"></i> Notify Donation via
+                  WhatsApp
+                </button>
               </div>
             </div>
           </div>
-
-          <!-- Donation Payment Card -->
-          <div class="donate-methods-card reveal reveal-delay-1">
-            <!-- QR code container with clean vector mock SVG -->
-            <div class="donate-qr-wrapper">
-              <div class="donate-qr-placeholder">
-                <!-- Clean representation of UPI QR Code -->
-                <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                  <!-- QR Borders & Position blocks -->
-                  <rect x="5" y="5" width="25" height="25" fill="#121212" />
-                  <rect x="9" y="9" width="17" height="17" fill="#ffffff" />
-                  <rect x="13" y="13" width="9" height="9" fill="#7A0C2E" />
-
-                  <rect x="70" y="5" width="25" height="25" fill="#121212" />
-                  <rect x="74" y="9" width="17" height="17" fill="#ffffff" />
-                  <rect x="78" y="78" width="9" height="9" fill="#7A0C2E" />
-
-                  <rect x="5" y="70" width="25" height="25" fill="#121212" />
-                  <rect x="9" y="74" width="17" height="17" fill="#ffffff" />
-                  <rect x="13" y="78" width="9" height="9" fill="#7A0C2E" />
-
-                  <!-- Random QR Pixel Mocks -->
-                  <rect x="35" y="5" width="5" height="10" fill="#121212" />
-                  <rect x="45" y="5" width="10" height="5" fill="#7A0C2E" />
-                  <rect x="60" y="10" width="5" height="15" fill="#121212" />
-                  <rect x="35" y="20" width="15" height="5" fill="#121212" />
-                  <rect x="55" y="20" width="5" height="5" fill="#7A0C2E" />
-                  
-                  <rect x="35" y="35" width="10" height="10" fill="#7A0C2E" />
-                  <rect x="50" y="35" width="5" height="5" fill="#121212" />
-                  <rect x="60" y="35" width="25" height="5" fill="#121212" />
-                  <rect x="35" y="50" width="5" height="15" fill="#121212" />
-                  <rect x="45" y="50" width="20" height="5" fill="#7A0C2E" />
-                  <rect x="55" y="60" width="10" height="10" fill="#121212" />
-                  
-                  <rect x="70" y="50" width="5" height="15" fill="#7A0C2E" />
-                  <rect x="80" y="55" width="15" height="5" fill="#121212" />
-                  <rect x="85" y="65" width="10" height="15" fill="#121212" />
-                  
-                  <rect x="5" y="60" width="10" height="5" fill="#7A0C2E" />
-                  <rect x="20" y="50" width="10" height="10" fill="#121212" />
-                  
-                  <!-- Center logo dot -->
-                  <circle cx="50" cy="50" r="6" fill="#D4AF37" />
-                </svg>
-              </div>
-              <div class="donate-qr-text" data-i18n="donate_scan_qr">Scan QR Code to Pay</div>
-            </div>
-
-            <!-- Bank account list -->
-            <div class="bank-details-wrapper">
-              <h4 class="bank-details-title" data-i18n="donate_bank_header">Direct Bank Transfer Details</h4>
-              <div class="bank-info-item">
-                <span class="bank-info-label" data-i18n="donate_bank_holder">Account Name</span>
-                <span class="bank-info-value">Ajanta School of Drama & Film Trust</span>
-              </div>
-              <div class="bank-info-item">
-                <span class="bank-info-label" data-i18n="donate_bank_name">Bank Name</span>
-                <span class="bank-info-value">State Bank of India</span>
-              </div>
-              <div class="bank-info-item">
-                <span class="bank-info-label" data-i18n="donate_bank_no">Account Number</span>
-                <span class="bank-info-value">123456789012</span>
-              </div>
-              <div class="bank-info-item">
-                <span class="bank-info-label" data-i18n="donate_bank_ifsc">IFSC Code</span>
-                <span class="bank-info-value">SBIN0001234</span>
-              </div>
-              <div class="bank-info-item">
-                <span class="bank-info-label" data-i18n="donate_bank_branch">Branch</span>
-                <span class="bank-info-value">CIDCO Chhatrapati Sambhajinagar</span>
-              </div>
-            </div>
-
-            <div class="donate-btn-wrapper">
-              <button class="btn btn-primary" id="whatsappNotifyBtn" data-i18n="donate_cta">
-                <i class="fa-brands fa-whatsapp"></i> Notify Donation via WhatsApp
-              </button>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ==========================================================================
+      <!-- ==========================================================================
          CONTACT US & FORM SECTION
          ========================================================================== -->
-    <section class="section section-bg-alt" id="contact">
-      <div class="container">
-        <div class="section-header reveal">
-          <h2 class="section-title" data-i18n="contact_title">Get In Touch</h2>
-          <p data-i18n="contact_desc">Have queries or want to join us? Send us a message or visit our trust center.</p>
-        </div>
+      <section class="section section-bg-alt" id="contact">
+        <div class="container">
+          <div class="section-header reveal">
+            <h2 class="section-title" data-i18n="contact_title">
+              Get In Touch
+            </h2>
+            <p data-i18n="contact_desc">
+              Have queries or want to join us? Send us a message or visit our
+              trust center.
+            </p>
+          </div>
 
-        <div class="contact-grid">
-          <!-- Address & Social Details -->
-          <div class="contact-info-panel reveal">
-            <h3 data-i18n="contact_info_title">Contact Details</h3>
-            
-            <div class="contact-info-list">
-              <!-- Item 1: Address -->
-              <div class="contact-info-item">
-                <i class="fa-solid fa-map-location-dot contact-info-icon"></i>
-                <div class="contact-info-text">
-                  <h4 data-i18n="contact_addr_title">Address</h4>
-                  <p data-i18n="contact_addr_val">Ajanta School of Drama and Film Trust, CIDCO Area, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra - 431003, India</p>
+          <div class="contact-grid">
+            <!-- Address & Social Details -->
+            <div class="contact-info-panel reveal">
+              <h3 data-i18n="contact_info_title">Contact Details</h3>
+
+              <div class="contact-info-list">
+                <!-- Item 1: Address -->
+                <div class="contact-info-item">
+                  <i class="fa-solid fa-map-location-dot contact-info-icon"></i>
+                  <div class="contact-info-text">
+                    <h4 data-i18n="contact_addr_title">Address</h4>
+                    <p data-i18n="contact_addr_val">
+                      Ajanta School of Drama and Film Trust, CIDCO Area,
+                      Chhatrapati Sambhajinagar (Aurangabad), Maharashtra -
+                      431003, India
+                    </p>
+                  </div>
+                </div>
+                <!-- Item 2: Phone -->
+                <div class="contact-info-item">
+                  <i class="fa-solid fa-phone-volume contact-info-icon"></i>
+                  <div class="contact-info-text">
+                    <h4 data-i18n="contact_phone_title">Phone Number</h4>
+                    <p>+91 98765 43210 &nbsp;|&nbsp; +91 240 234567</p>
+                  </div>
+                </div>
+                <!-- Item 3: Email -->
+                <div class="contact-info-item">
+                  <i
+                    class="fa-solid fa-envelope-open-text contact-info-icon"
+                  ></i>
+                  <div class="contact-info-text">
+                    <h4 data-i18n="contact_email_title">Email Address</h4>
+                    <p>info@ajantadramafilmtrust.org</p>
+                  </div>
                 </div>
               </div>
-              <!-- Item 2: Phone -->
-              <div class="contact-info-item">
-                <i class="fa-solid fa-phone-volume contact-info-icon"></i>
-                <div class="contact-info-text">
-                  <h4 data-i18n="contact_phone_title">Phone Number</h4>
-                  <p>+91 98765 43210 &nbsp;|&nbsp; +91 240 234567</p>
-                </div>
-              </div>
-              <!-- Item 3: Email -->
-              <div class="contact-info-item">
-                <i class="fa-solid fa-envelope-open-text contact-info-icon"></i>
-                <div class="contact-info-text">
-                  <h4 data-i18n="contact_email_title">Email Address</h4>
-                  <p>info@ajantadramafilmtrust.org</p>
+
+              <!-- Social Links Area -->
+              <div class="contact-social-media">
+                <h4 class="social-header" data-i18n="contact_social_title">
+                  Follow Our Work
+                </h4>
+                <div class="social-links-row">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    class="social-icon-btn"
+                    aria-label="Facebook"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    class="social-icon-btn"
+                    aria-label="Instagram"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a
+                    href="https://wa.me/919000000000"
+                    target="_blank"
+                    class="social-icon-btn"
+                    aria-label="WhatsApp"
+                    ><i class="fa-brands fa-whatsapp"></i
+                  ></a>
+                  <a
+                    href="https://youtube.com"
+                    target="_blank"
+                    class="social-icon-btn"
+                    aria-label="YouTube"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
                 </div>
               </div>
             </div>
 
-            <!-- Social Links Area -->
-            <div class="contact-social-media">
-              <h4 class="social-header" data-i18n="contact_social_title">Follow Our Work</h4>
-              <div class="social-links-row">
-                <a href="https://facebook.com" target="_blank" class="social-icon-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://instagram.com" target="_blank" class="social-icon-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://wa.me/919000000000" target="_blank" class="social-icon-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://youtube.com" target="_blank" class="social-icon-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-              </div>
+            <!-- Contact Form Panel -->
+            <div class="contact-form-panel reveal reveal-delay-1">
+              <h3 data-i18n="contact_form_title">Send Us a Message</h3>
+
+              <form id="contactForm" novalidate>
+                <div class="form-group">
+                  <label for="formName" class="form-label" data-i18n="form_name"
+                    >Full Name</label
+                  >
+                  <input
+                    type="text"
+                    id="formName"
+                    class="form-control"
+                    data-i18n-placeholder="form_name"
+                    placeholder="Full Name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label
+                    for="formEmail"
+                    class="form-label"
+                    data-i18n="form_email"
+                    >Email Address</label
+                  >
+                  <input
+                    type="email"
+                    id="formEmail"
+                    class="form-control"
+                    data-i18n-placeholder="form_email"
+                    placeholder="Email Address"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label
+                    for="formMessage"
+                    class="form-label"
+                    data-i18n="form_msg"
+                    >Your Message</label
+                  >
+                  <textarea
+                    id="formMessage"
+                    class="form-control"
+                    data-i18n-placeholder="form_msg"
+                    placeholder="Your Message"
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary form-submit-btn"
+                  data-i18n="form_submit"
+                >
+                  Send Message
+                </button>
+
+                <!-- Validation/Success Feedback -->
+                <div id="formToast" class="toast-msg"></div>
+              </form>
             </div>
           </div>
-
-          <!-- Contact Form Panel -->
-          <div class="contact-form-panel reveal reveal-delay-1">
-            <h3 data-i18n="contact_form_title">Send Us a Message</h3>
-            
-            <form id="contactForm" novalidate>
-              <div class="form-group">
-                <label for="formName" class="form-label" data-i18n="form_name">Full Name</label>
-                <input type="text" id="formName" class="form-control" data-i18n-placeholder="form_name" placeholder="Full Name" required>
-              </div>
-              <div class="form-group">
-                <label for="formEmail" class="form-label" data-i18n="form_email">Email Address</label>
-                <input type="email" id="formEmail" class="form-control" data-i18n-placeholder="form_email" placeholder="Email Address" required>
-              </div>
-              <div class="form-group">
-                <label for="formMessage" class="form-label" data-i18n="form_msg">Your Message</label>
-                <textarea id="formMessage" class="form-control" data-i18n-placeholder="form_msg" placeholder="Your Message" required></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary form-submit-btn" data-i18n="form_submit">Send Message</button>
-              
-              <!-- Validation/Success Feedback -->
-              <div id="formToast" class="toast-msg"></div>
-            </form>
-          </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+    </main>
 
-  <!-- ==========================================================================
+    <!-- ==========================================================================
        FOOTER SECTION
        ========================================================================== -->
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-top">
-        <!-- Col 1: About the trust -->
-        <div class="footer-col footer-about">
-          <div class="footer-brand">
-            <i class="fa-solid fa-masks-theater"></i> Ajanta School of <span>Drama & Film</span>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <!-- Col 1: About the trust -->
+          <div class="footer-col footer-about">
+            <div class="footer-brand">
+              <i class="fa-solid fa-masks-theater"></i> Ajanta School of
+              <span>Drama & Film</span>
+            </div>
+            <p data-i18n="footer_info_desc">
+              Registered NGO in Chhatrapati Sambhajinagar. Committed to social
+              upliftment through theatre, film art, and cultural activities.
+            </p>
           </div>
-          <p data-i18n="footer_info_desc">Registered NGO in Chhatrapati Sambhajinagar. Committed to social upliftment through theatre, film art, and cultural activities.</p>
+
+          <!-- Col 2: Quick Links -->
+          <div class="footer-col">
+            <h3 data-i18n="footer_quick_links">Quick Links</h3>
+            <ul class="footer-links-list">
+              <li><a href="#" data-i18n="nav_home">Home</a></li>
+              <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+              <li>
+                <a href="#programs" data-i18n="nav_programs">Our Programs</a>
+              </li>
+              <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+              <li><a href="#videos" data-i18n="nav_videos">Videos</a></li>
+              <li><a href="#donate" data-i18n="nav_donate">Donate</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Contact Details -->
+          <div class="footer-col">
+            <h3 data-i18n="nav_contact">Contact Us</h3>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot footer-contact-icon"></i>
+              <span data-i18n="contact_addr_val"
+                >Ajanta School of Drama and Film Trust, CIDCO Area, Chhatrapati
+                Sambhajinagar (Aurangabad), Maharashtra - 431003, India</span
+              >
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone footer-contact-icon"></i>
+              <span>+91 98765 43210</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope footer-contact-icon"></i>
+              <span>info@ajantadramafilmtrust.org</span>
+            </div>
+          </div>
         </div>
 
-        <!-- Col 2: Quick Links -->
-        <div class="footer-col">
-          <h3 data-i18n="footer_quick_links">Quick Links</h3>
-          <ul class="footer-links-list">
-            <li><a href="#" data-i18n="nav_home">Home</a></li>
-            <li><a href="#about" data-i18n="nav_about">About Us</a></li>
-            <li><a href="#programs" data-i18n="nav_programs">Our Programs</a></li>
-            <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
-            <li><a href="#videos" data-i18n="nav_videos">Videos</a></li>
-            <li><a href="#donate" data-i18n="nav_donate">Donate</a></li>
-          </ul>
-        </div>
-
-        <!-- Col 3: Contact Details -->
-        <div class="footer-col">
-          <h3 data-i18n="nav_contact">Contact Us</h3>
-          <div class="footer-contact-item">
-            <i class="fa-solid fa-location-dot footer-contact-icon"></i>
-            <span data-i18n="contact_addr_val">Ajanta School of Drama and Film Trust, CIDCO Area, Chhatrapati Sambhajinagar (Aurangabad), Maharashtra - 431003, India</span>
+        <!-- Footer Bottom Copyright metadata -->
+        <div class="footer-bottom">
+          <div class="copyright-text">
+            &copy; 2026
+            <span data-i18n="footer_rights"
+              >Ajanta School of Drama and Film Trust. All Rights Reserved.</span
+            >
           </div>
-          <div class="footer-contact-item">
-            <i class="fa-solid fa-phone footer-contact-icon"></i>
-            <span>+91 98765 43210</span>
-          </div>
-          <div class="footer-contact-item">
-            <i class="fa-solid fa-envelope footer-contact-icon"></i>
-            <span>info@ajantadramafilmtrust.org</span>
+          <div class="designer-text">
+            Designed for
+            <a href="#" data-i18n="hero_sub"
+              >Ajanta School of Drama & Film Trust</a
+            >
           </div>
         </div>
       </div>
+    </footer>
 
-      <!-- Footer Bottom Copyright metadata -->
-      <div class="footer-bottom">
-        <div class="copyright-text">
-          &copy; 2026 <span data-i18n="footer_rights">Ajanta School of Drama and Film Trust. All Rights Reserved.</span>
+    <!-- ==========================================================================
+       EXTRA STICKY FLOATING CONTROLS
+       ========================================================================== -->
+    <!-- Back to Top Trigger Button -->
+    <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Floating Direct Line -->
+    <div
+      class="whatsapp-float"
+      id="whatsappFloatBtn"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fa-brands fa-whatsapp"></i>
+    </div>
+
+    <!-- Install Web App Toast (shown only if install prompt available) -->
+    <div
+      id="pwaInstallToast"
+      class="pwa-install-toast"
+      role="dialog"
+      aria-live="polite"
+      aria-label="Install app notification"
+      hidden
+    >
+      <div class="pwa-install-toast-inner">
+        <div class="pwa-install-toast-title">Install Ajanta Drama & Film</div>
+        <div class="pwa-install-toast-desc">
+          Get faster access and offline support.
         </div>
-        <div class="designer-text">
-          Designed for <a href="#" data-i18n="hero_sub">Ajanta School of Drama & Film Trust</a>
+        <div class="pwa-install-toast-actions">
+          <button class="pwa-install-btn" id="pwaInstallBtn" type="button">
+            Install
+          </button>
+          <button
+            class="pwa-dismiss-btn"
+            type="button"
+            id="pwaDismissBtn"
+            aria-label="Dismiss"
+          >
+            Not now
+          </button>
         </div>
       </div>
     </div>
-  </footer>
 
-  <!-- ==========================================================================
-       EXTRA STICKY FLOATING CONTROLS
-       ========================================================================== -->
-  <!-- Back to Top Trigger Button -->
-  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top">
-    <i class="fa-solid fa-arrow-up"></i>
-  </button>
-
-  <!-- WhatsApp Floating Direct Line -->
-  <div class="whatsapp-float" id="whatsappFloatBtn" aria-label="Chat on WhatsApp">
-    <i class="fa-brands fa-whatsapp"></i>
-  </div>
-
-  <!-- Custom JavaScript -->
-  <script src="script.js"></script>
-</body>
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+  </body>
 </html>
